@@ -3,13 +3,11 @@ name: my first workflow
 on: push
 
 jobs:
-    first_job:
-        runs-on: ubuntu-latest
-        steps:
-            - name: print msg 
-            run: echo "my first workflow"
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print msg 
+        run: echo "my first workflow"
 
-            - name: of A7
-            
-        
-           
+      - name: list files 
+        run: ls
