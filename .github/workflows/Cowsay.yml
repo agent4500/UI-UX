@@ -22,3 +22,6 @@ jobs:
         with:
           name: dragon-file
           path: dragon.txt
+
+      - name: read readme file
+        run: ls -l
